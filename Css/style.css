@@ -1,0 +1,131 @@
+html{
+    font-size: 62,5;
+   }
+   
+   body{
+       font-family: 'Lora', serif;
+       box-sizing: border-box; 
+    }
+   
+   /*--Header--*/
+   
+   header{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+       padding: 5px;
+     
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+header ol{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+
+header ol li{
+    margin: 0.2rem;
+}
+
+/*--section arrow--*/
+
+.inicio img {
+    display: flex;
+    min-width: 30%;
+
+}
+
+.inicio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 1rem;
+
+}
+
+.inicio div{
+    width: 500px;
+}
+
+.inicio h1{
+    font-size: 2.2rem;
+    padding-bottom: 0.7rem;
+}
+
+.inicio p{
+    font-size: 1.2rem;
+    color: #999;
+}
+
+/* Botao de notificacao*/
+.button {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+  }
+  
+  .button:hover {background-color: whitesmoke}
+  
+  .button:active {
+    background-color: whitesmoke;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /*Localicacao*/
+
+.geolocation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+ 
+}
+
+.geolocation h1{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+
+}
+
+.geolocation div{
+    border: 1px solid black;
+    background-color:gainsboro;
+}
+.geolocation img{
+position: absolute;
+width: 573px;
+height: 573px;
+left: -202px;
+top: 967px;
+background: rgba(0, 116, 255, 0.2);
+background-color: white;
+}
